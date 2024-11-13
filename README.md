@@ -9,6 +9,6 @@ Worked on exchanging the ResNet backbone in the U-Net for a DenseNet backbone.
 - In **U-Net/densenet_unet_2.py**, the decode operation for center is not upsampled, which may reduce the effectiveness of the first skip connection
 
 Further topics for classification: 
-    - Worth looking into better weight initialization (U-Net original paper section 3.0 emphasizes this)
-    - Could try learning rate scheduler during training
-    - Try a three block DenseNet 
+- Worth looking into better weight initialization (U-Net original paper section 3.0 emphasizes this)
+- Could try learning rate scheduler during training
+- Try a three block DenseNet 
