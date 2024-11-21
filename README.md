@@ -1,5 +1,10 @@
 # E4E-Mangrove-Experimenting
 
+# 11-20-2024
+Made a smaller DenseNet U-Net and looked into LoRA for super-resolution. 
+- **U-Net/densenet_unet_3.py** contains a model removing the fourth dense block and adding a modified first layer
+- 9.7 million vs. 15.9 million (original with ResNet) parameters
+
 # 11-13-2024
 Worked on exchanging the ResNet backbone in the U-Net for a DenseNet backbone.
 - DenseNet121 has four dense blocks, which easily fit into the existing four layers in the ResNet U-Net implementation
